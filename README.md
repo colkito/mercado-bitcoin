@@ -4,7 +4,8 @@
 
 # Mercado Bitcoin API
 
-#### A simple wrapper to use the Mercado Bitcoin API in NodeJS.
+This is a simple implementation of the www.mercado-bitcoin.com.ar JSON API written for nodejs.
+
 
 ## Installation
 
@@ -49,4 +50,4 @@ Gets the latest average price.
 Gets the last convert between Bitcoins and Currency.
 
 ## More API info:
-(http://www.mercado-bitcoin.com.ar/documentation)
+For all available methods please visit: http://www.mercado-bitcoin.com.ar/documentation
