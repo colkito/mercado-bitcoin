@@ -1,4 +1,8 @@
-# Mercado Bitcoin API [![NPM version](https://badge.fury.io/js/mercado-bitcoin.png)](http://badge.fury.io/js/mercado-bitcoin)
+[![NPM version](https://badge.fury.io/js/mercado-bitcoin.png)](http://badge.fury.io/js/mercado-bitcoin)
+[![Code Climate](https://codeclimate.com/github/colkito/mercado-bitcoin.png)](https://codeclimate.com/github/colkito/mercado-bitcoin)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/colkito/mercado-bitcoin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+# Mercado Bitcoin API
 
 #### A simple wrapper to use the Mercado Bitcoin API in NodeJS.
 
@@ -46,4 +50,3 @@ Gets the last convert between Bitcoins and Currency.
 
 ## More API info:
 (http://www.mercado-bitcoin.com.ar/documentation)
-
