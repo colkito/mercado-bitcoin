@@ -1,19 +1,22 @@
+# Establish the root object, `window` in the browser, or `global` on the server.
+root = exports ? (@conversion = {})
+
 # Returns the last prices
 # Valid methods: lastquote, lastquoteaverage
 #Valid symbols: mtgoxUSD, bitstampUSD, ARSUSDB
-last = (method, symbol, callback) ->
+root.last = (method, symbol, callback) ->
   url = _getURL(method) + "&symbol=#{symbol}"
   _response url, callback
 
 #Returns the averages prices
 # Valid methods: dollarBlueMarketAveragePrice, bitcoinMarketLast24HoursAveragePrice, bitstampLast24HoursAveragePrice, mtGoxLast24HoursAveragePrice,
-average = (method, callback) ->
+root.average = (method, callback) ->
   url = _getURL(method)
   _response url, callback
 
 # Returns the conversions between ARS and BTC
 # Valid methods: convert_BTC_ARS_Last, convert_BTC_ARS_Avg, convert_ARS_BTC_Last, convert_ARS_BTC_Avg
-convert = (method, amount, callback) ->
+root.convert = (method, amount, callback) ->
   url = _getURL(method) + "&amount=#{amount}"
   _response url, callback
 
@@ -54,8 +57,3 @@ _xhr = ->
     request = new (require('xmlhttprequest').XMLHttpRequest)
 
   request
-
-
-module.exports = last
-module.exports = average
-module.exports = convert
