@@ -1,0 +1,46 @@
+{
+  "name": "mercado-bitcoin",
+  "version": "0.0.1",
+  "description": "Client for MercadoBitcoin API",
+  "private": false,
+  "main": "index.js",
+  "dependencies": {
+    "xmlhttprequest": "latest"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "grunt": "latest",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-bumpup": "~0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colkito/mercado-bitcoin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colkito/mercado-bitcoin/issues"
+  },
+  "homepage": "https://github.com/colkito/mercado-bitcoin",
+  "keywords": [
+    "bitcoin",
+    "money",
+    "rate",
+    "exchange",
+    "pesos",
+    "dolar",
+    "dolar blue",
+    "mercado bitcoin",
+    "conversion",
+    "convert",
+    "currency"
+  ],
+  "author": {
+    "name": "Mario Colque",
+    "email": "colquemario@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  }
+}
