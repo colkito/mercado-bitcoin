@@ -47,9 +47,3 @@ Gets the last convert between Bitcoins and Currency.
 ## More API info:
 (http://www.mercado-bitcoin.com.ar/documentation)
 
-
-## Author
-
-| [![twitter/colkito](http://gravatar.com/avatar/e0f8435a3df533d64b09b8aee394b8d3?s=85)](https://twitter.com/colkito "Follow @colkito on Twitter") |
-|---|
-| [Mario Colque](http://colkito.com/) |
