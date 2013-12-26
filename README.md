@@ -23,14 +23,14 @@ var mb = require("mercado-bitcoin");
 ## Synopsis
 
 ``` javascript
-var btcAmount, mercadoBitcoin, method;
+var amount, mercadoBitcoin, method;
 
 mercadoBitcoin = require('../lib/mercado-bitcoin');
 
-btcAmount = 0.1;
-method = 'convert_BTC_ARS_Last'
+amount = 0.1;
+method = 'convert_BTC_ARS_Last';
 
-mercadoBitcoin.convert('convert_BTC_ARS_Last', '1', function (err, response) {
+mercadoBitcoin.convert(method, amount, function (err, response) {
   console.log(response);
  });
 ```
