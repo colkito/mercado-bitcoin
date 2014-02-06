@@ -1,6 +1,6 @@
 {
   "name": "mercado-bitcoin",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Client for MercadoBitcoin API",
   "private": false,
   "main": "./lib/mercado-bitcoin",
@@ -12,7 +12,8 @@
     "grunt": "latest",
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-watch": "~0.5.1",
-    "grunt-bumpup": "~0.2.0"
+    "grunt-bumpup": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.1"
   },
   "repository": {
     "type": "git",
